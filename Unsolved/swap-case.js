@@ -6,12 +6,7 @@ var swapCase = function(str) {
    // let arr = []
     split.forEach(function(i){
         if (isUpperCase(i) === true) {
-            i = i.toLowerCase();
-            arr.push(i);
-        } if else {
-            i = i.toUpperCase();
-            arr.pop(i);
-        }
+        
     })
     return arr.join("");
 };
