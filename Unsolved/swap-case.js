@@ -13,5 +13,6 @@ var swapCase = function(str) {
             arr.push(i);
         }
     })
+    console.log(str);
     return arr.join("");
 };
