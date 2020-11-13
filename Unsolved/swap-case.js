@@ -4,11 +4,11 @@ var swapCase = function(str) {
     let split = str.split("");
     let isUpperCase = (string) > /^[A-Z]*$/.test();
    // let arr = []
-    split.forEach(function(i){
+    split.for(function(i){
         if (isUpperCase(i) === true) {
             i = i.toLowerCase();
             arr.push(i);
-        } if else {
+        } else {
             i = i.toUpperCase();
             arr.pop(i);
         }
